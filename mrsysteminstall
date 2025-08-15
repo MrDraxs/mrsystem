@@ -10,8 +10,9 @@ sudo make clean install
 cd $HOME 
 printf 'kodi-standalone &\nexec dwm' > .xinitrc
 printf 'if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then\nstartx\nfi' >> .bash_profile
-sudo mv mrsystem/autologin@.service /etc/systemd/system/autologin@.service
-ln -s /etc/systemd/system/autologin@.service /etc/systemd/system/getty.target.wants/getty@tty1.service
-sudo systemctl daemon-reload
-sudo systemctl start getty@tty1.service
-#rm -rf $HOME/dwm-6.6
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
+sudo mv mrsystem/override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
+rm -rf $HOME/dwm-6.6
+rm -rf $HOME/mrsystem
+rm dwm-6.6.tar.gz
+sudo reboot
