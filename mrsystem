@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+sudo pacman --needed -S xorg-xserver xorg-xinit wget libx11 libxft base-devel git kodi
+wget 'https://dl.suckless.org/dwm/dwm-6.6.tar.gz'
+git clone 'https://github.com/MrDraxs/mrsystem.git'
+cd $HOME/dwm-6.6
+rm config.def.h
+mv $HOME/mrsystem/dwm/config.def.h .
+sudo make clean install
+cd $HOME
+rm -rf $HOME/dwm-6.6
+printf 'kodi-standalone &\nexec dwm' > .xinitrc
+printf 'if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then\nstartx\nfi' >> .bash_profile
+sudo mv mrsystem/autologin@.service /etc/systemd/system/autologin@.service
+ln -s /etc/systemd/system/autologin@.service /etc/systemd/system/getty.target.wants/getty@tty1.service
+systemctl daemon-reload
+systemctl start getty@tty1.service
+reboot
