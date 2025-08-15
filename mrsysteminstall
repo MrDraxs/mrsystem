@@ -1,13 +1,12 @@
 #!/usr/bin/bash
-if [ ! -d $HOME/dwm-6.6 ] && echo 'download and extract dwm' && exit
+[ ! -d $HOME/dwm-6.6 ] && echo 'download and extract dwm' && exit
 cd $HOME
-sudo pacman -S --needed xorg base-devel git tar kodi
-git clone 'https://github.com/MrDraxs/mrsystem.git'
+sudo pacman -S --needed xorg xorg-server xorg-xinit base-devel git tar kodi
 cd $HOME/dwm-6.6
-rm $HOME/dwm-6.6/config.def.h
-mv $HOME/mrsystem/dwn/config.def.h $HOME/dwm-6.6/config.def.h
+sudo rm $HOME/dwm-6.6/config.def.h
+sudo mv $HOME/mrsystem/dwm/config.def.h $HOME/dwm-6.6/config.def.h
 sudo make clean install
-cd $HOME 
+cd $HOME
 printf 'kodi-standalone &\nexec dwm' > .xinitrc
 printf 'if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then\nstartx\nfi' >> .bash_profile
 sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
