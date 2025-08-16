@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-sudo pacman -S --needed xorg xorg-server xorg-xinit base-devel git tar kodi
+sudo pacman -S --needed xorg-server xorg-xinit libx11 libxinerama libxft terminus-font base-devel git tar kodi
 cd $HOME/mrsystem/dwm
 sudo make clean install
 cd $HOME
