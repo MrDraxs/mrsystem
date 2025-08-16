@@ -1,18 +1,12 @@
 #!/usr/bin/bash
-[ ! -d $HOME/dwm-6.6 ] && echo 'download and extract dwm' && exit
-cd $HOME
 sudo pacman -S --needed xorg xorg-server xorg-xinit base-devel git tar kodi
-cd $HOME/dwm-6.6
-sudo rm $HOME/dwm-6.6/config.def.h
-sudo mv $HOME/mrsystem/dwm/config.def.h $HOME/dwm-6.6/config.def.h
+cd $HOME/mrsystem/dwm
 sudo make clean install
 cd $HOME
-printf 'kodi-standalone &\nexec dwm' > .xinitrc
-printf 'if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then\nstartx\nfi' >> .bash_profile
+printf 'kodi-standalone &\nexec dwm' > $HOME/.xinitrc
+printf 'if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then\nstartx\nfi' >> $HOME/.bash_profile
 sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
-sudo mv mrsystem/override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
+sudo mv $HOME/mrsystem/override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
 sudo mv $HOME/mrsystem/.kodi $HOME
-rm -rf $HOME/dwm-6.6
 rm -rf $HOME/mrsystem
-rm dwm-6.6.tar.gz
 sudo reboot
