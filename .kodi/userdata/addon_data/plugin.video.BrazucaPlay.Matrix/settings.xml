@@ -1,0 +1,20 @@
+<settings version="2">
+    <setting id="ch_layout" default="true">false</setting>
+    <setting id="disable_canais_extra" default="true">false</setting>
+    <setting id="canais_extra" default="true">false</setting>
+    <setting id="favoritos" default="true">false</setting>
+    <setting id="use_thumb" default="true">false</setting>
+    <setting id="features_enable" default="true">false</setting>
+    <setting id="features_pass" default="true" />
+    <setting id="epg" default="true">false</setting>
+    <setting id="epg_days">2</setting>
+    <setting id="epg_last" default="true" />
+    <setting id="label8" default="true" />
+    <setting id="player_opt" default="true">0</setting>
+    <setting id="player_f4m" default="true">false</setting>
+    <setting id="ffmpeg_opt" default="true">false</setting>
+    <setting id="repeat_opt" default="true">false</setting>
+    <setting id="label9" default="true" />
+    <setting id="redecanais_opt" default="true">false</setting>
+    <setting id="donate_consider" default="true">250915</setting>
+</settings>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+  <include name="Custom1Widgets">
+    <include content="WidgetListCategory">
+      <param name="content_path" value="plugin://plugin.video.elementum/movies/search"/>
+      <param name="widget_header" value="Pesquisar - Filmes(legendado)"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="23011"/>
+    </include>
+    <include content="WidgetListLandscape">
+      <param name="content_path" value="plugin://plugin.video.elementum/movies/recent"/>
+      <param name="widget_header" value="Filmes - lançamentos(legendado)"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="23012"/>
+    </include>
+    <include content="WidgetListCategory">
+      <param name="content_path" value="plugin://plugin.video.elementum/shows/search"/>
+      <param name="widget_header" value="Pesquisar - Séries(legendado)"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="23013"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.elementum/shows/recent/episodes"/>
+      <param name="widget_header" value="Séries - Lançamentos(legendado)"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="23014"/>
+    </include>
+    <include content="WidgetListCategory">
+      <param name="content_path" value="plugin://plugin.video.elementum/movies/genres"/>
+      <param name="widget_header" value="Filmes Gêneros(legendado)"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="23015"/>
+    </include>
+    <include content="WidgetListCategory">
+      <param name="content_path" value="plugin://plugin.video.elementum/shows/genres"/>
+      <param name="widget_header" value="Séries Gêneros(legendado)"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="23016"/>
+    </include>
+  </include>
+</includes>

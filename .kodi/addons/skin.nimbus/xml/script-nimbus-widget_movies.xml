@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+  <include name="MovieWidgets">
+    <include content="WidgetListCategory">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix"/>
+      <param name="widget_header" value="None"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19011"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=6148523063484D364C79396E61584E304C6D647064476831596E567A5A584A6A623235305A5735304C6D4E766253397A61336C7961584E724C7A56694F4463334F54637A4D6A6C6A4E3249304E6A51794D6A55324E575A6D596D4668596A4E695A54646C4C334A68647939735957356A5957316C626E5276637935346257773D&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+white%5DCATEGORIA%3A+%5BCOLOR+gold%5DLAN%C3%87AMENTOS%5B%2FCOLOR%5D%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FWETopHh.jpg&amp;fanart=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2ForjiB3oUIsyz60hoEqkiGpy5CeO.jpg&amp;description=%5BB%5D%5BCOLOR+white%5DOS+MELHORES+%5BCOLOR+gold%5DLAN%C3%87AMENTOS%5B%2FCOLOR%5D%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Filmes - Lançamentos"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19012"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=6148523063484D364C79396E61584E304C6D647064476831596E567A5A584A6A623235305A5735304C6D4E766253397A61336C7961584E724C7A45324D4463774D7A51335A6A4977597A6733597A63794E5451775A6A6C6D4F444131596A5533595459324C334A68647939545A584A705A584E4359584E6C&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+blue%5D%E2%97%8F%5B%2FCOLOR%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DTODAS+S%C3%89RIES%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FCTiye5o.jpg&amp;fanart=https%3A%2F%2Fi.imgur.com%2FqIGYUwS.jpg&amp;description=%5BB%5D%5BCOLOR+white%5DAS+MELHORES+S%C3%89RIES+DO+%5BCOLOR+gold%5DMUNDO%5B%2FCOLOR%5D+EM+UM+S%C3%93+LUGAR%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Séries"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19013"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=6148523063484D364C79396E61584E304C6D647064476831596E567A5A584A6A623235305A5735304C6D4E766253397A61336C7961584E724C7A45324D4463774D7A51335A6A4977597A6733597A63794E5451775A6A6C6D4F444131596A5533595459324C334A68647939455A584E6C626D687663304A686332553D&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+blue%5D%E2%97%8F%5B%2FCOLOR%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DTODOS+DESENHOS%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FXatMikO.jpg&amp;fanart=https%3A%2F%2Fi.imgur.com%2FX2GM3Th.jpg&amp;description=%5BB%5D%5BCOLOR+white%5DOS+MELHORES+DESENHOS+DO+%5BCOLOR+gold%5DMUNDO%5B%2FCOLOR%5D+EM+UM+S%C3%93+LUGAR%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Desenhos"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19014"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=6148523063484D364C79396E61584E304C6D647064476831596E567A5A584A6A623235305A5735304C6D4E766253397A61336C7961584E724C7A45324D4463774D7A51335A6A4977597A6733597A63794E5451775A6A6C6D4F444131596A5533595459324C334A686479394562334A686257467A516D467A5A513D3D&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+blue%5D%E2%97%8F%5B%2FCOLOR%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DTODOS+DORAMAS%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FAcrkZnE.png&amp;fanart=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F7BoRhg8zXP0ca9Zql4p8llCFR2P.jpg&amp;description=%5BB%5D%5BCOLOR+white%5DOS+MELHORES+DORAMAS+DO+%5BCOLOR+gold%5DMUNDO%5B%2FCOLOR%5D+EM+UM+S%C3%93+LUGAR%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Doramas"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19015"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=6148523063484D364C79396E61584E304C6D647064476831596E567A5A584A6A623235305A5735304C6D4E766253397A61336C7961584E724C7A45324D4463774D7A51335A6A4977597A6733597A63794E5451775A6A6C6D4F444131596A5533595459324C334A6864793942626D6C745A584E4359584E6C&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+blue%5D%E2%97%8F%5B%2FCOLOR%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DTODOS+ANIMES%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FgyhI4Cb.jpg&amp;fanart=https%3A%2F%2Fi.imgur.com%2F2t6N7uk.jpg&amp;description=%5BB%5D%5BCOLOR+white%5DOS+MELHORES+ANIMES+DO+%5BCOLOR+gold%5DMUNDO%5B%2FCOLOR%5D+EM+UM+S%C3%93+LUGAR%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Animes"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19016"/>
+    </include>
+    <include content="WidgetListPoster">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=6148523063484D364C79396E61584E304C6D647064476831596E567A5A584A6A623235305A5735304C6D4E766253397A61336C7961584E724C7A41335A6A466D4E474E6B4D5749794D444E6A596D59795A575A6C597A6B314F574D305A5467324E4456684C334A686479397562335A6C6247467A4C6E687462413D3D&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+blue%5D%E2%97%8F%5B%2FCOLOR%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DTODAS+NOVELAS%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FnJ1HGqW.jpg&amp;fanart=https%3A%2F%2Fi.imgur.com%2FoVVI97U.jpg&amp;description=%5BB%5D%5BCOLOR+white%5DAS+MELHORES+NOVELAS+DO+%5BCOLOR+gold%5DMUNDO%5B%2FCOLOR%5D+EM+UM+S%C3%93+LUGAR%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Novelas"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19017"/>
+    </include>
+    <include content="WidgetListCategory">
+      <param name="content_path" value="plugin://plugin.video.BrazucaPlay.Matrix/?url=%23menu_canais&amp;mode=21&amp;name=%5BB%5D%5BCOLOR+lime%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DTV+AO+VIVO%5B%2FCOLOR%5D%5B%2FB%5D&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FdRfcHTf.jpg&amp;fanart=https%3A%2F%2Fi.imgur.com%2FoVVI97U.jpg&amp;description=%5BB%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DProibido+a+venda+dos+add-ons+do+Brazuca+Play.%5B%2FCOLOR%5D%5B%2FB%5D%5BCR%5D%5BB%5D%5BCOLOR+firebrick%5D%E2%97%8F%5B%2FCOLOR%5D+%5BCOLOR+white%5DN%C3%A3o+vendemos+IPTV%2C+caso+ache+sites+ou+mesmo+apps+%C3%A9+falso.%5B%2FCOLOR%5D%5B%2FB%5D"/>
+      <param name="widget_header" value="Tv ao Vivo"/>
+      <param name="widget_target" value="videos"/>
+      <param name="list_id" value="19018"/>
+    </include>
+  </include>
+</includes>

@@ -1,0 +1,323 @@
+<settings version="2">
+    <setting id="use_elementum_proxy">true</setting>
+    <setting id="elementum_proxy_help" default="true" />
+    <setting id="use_public_dns" default="true">false</setting>
+    <setting id="public_dns_list" default="true">8.8.8.8, 8.8.4.4, 9.9.9.9</setting>
+    <setting id="opennic_dns_list" default="true">94.247.43.254, 152.53.15.127, 185.181.61.24</setting>
+    <setting id="use_tor_dns" default="true">false</setting>
+    <setting id="tor_dns_help" default="true" />
+    <setting id="overrides_path" default="true">special://profile/addon_data/script.elementum.burst/os.path.join(translatePath(ADDON_PROFILE), &apos;overrides.json&apos;)</setting>
+    <setting id="min_size" default="true">0</setting>
+    <setting id="max_size">100</setting>
+    <setting id="max_results">10</setting>
+    <setting id="sort_by">3</setting>
+    <setting id="auto_timeout">true</setting>
+    <setting id="timeout">25</setting>
+    <setting id="timeout_help" default="true" />
+    <setting id="use_custom_user_agent" default="true">false</setting>
+    <setting id="custom_user_agent" default="true" />
+    <setting id="cookie_sync_enabled">true</setting>
+    <setting id="cookie_sync_token" default="true" />
+    <setting id="cookie_sync_password" default="true" />
+    <setting id="cookie_sync_gist_id" default="true" />
+    <setting id="cookie_sync_filename" default="true">kevast-gist-default.json</setting>
+    <setting id="cookie_sync_fileurl" default="true" />
+    <setting id="use_1337x">true</setting>
+    <setting id="1337x_alias" default="true" />
+    <setting id="1337x_contains" default="true">0</setting>
+    <setting id="use_bt4g">true</setting>
+    <setting id="bt4g_alias" default="true" />
+    <setting id="bt4g_contains" default="true">0</setting>
+    <setting id="use_anilibria" default="true">false</setting>
+    <setting id="anilibria_alias" default="true" />
+    <setting id="anilibria_contains" default="true">0</setting>
+    <setting id="use_bitsearch" default="true">false</setting>
+    <setting id="bitsearch_alias" default="true" />
+    <setting id="bitsearch_contains" default="true">0</setting>
+    <setting id="use_cpasbien" default="true">false</setting>
+    <setting id="cpasbien_alias" default="true" />
+    <setting id="cpasbien_contains" default="true">0</setting>
+    <setting id="use_extranet" default="true">false</setting>
+    <setting id="extranet_alias" default="true" />
+    <setting id="extranet_contains" default="true">0</setting>
+    <setting id="use_extratorrent" default="true">false</setting>
+    <setting id="extratorrent_alias" default="true" />
+    <setting id="extratorrent_contains" default="true">0</setting>
+    <setting id="use_eztv" default="true">false</setting>
+    <setting id="eztv_alias" default="true" />
+    <setting id="eztv_contains" default="true">0</setting>
+    <setting id="use_glotorrents" default="true">false</setting>
+    <setting id="glotorrents_alias" default="true" />
+    <setting id="glotorrents_contains" default="true">0</setting>
+    <setting id="use_idope" default="true">false</setting>
+    <setting id="idope_alias" default="true" />
+    <setting id="idope_contains" default="true">0</setting>
+    <setting id="use_ilcorsaronero" default="true">false</setting>
+    <setting id="ilcorsaronero_alias" default="true" />
+    <setting id="ilcorsaronero_contains" default="true">0</setting>
+    <setting id="use_itorrent" default="true">false</setting>
+    <setting id="itorrent_alias" default="true" />
+    <setting id="itorrent_contains" default="true">0</setting>
+    <setting id="use_limetorrents">true</setting>
+    <setting id="limetorrents_alias" default="true" />
+    <setting id="limetorrents_contains" default="true">0</setting>
+    <setting id="use_megapeer" default="true">false</setting>
+    <setting id="megapeer_alias" default="true" />
+    <setting id="megapeer_contains" default="true">0</setting>
+    <setting id="use_thepiratebay">true</setting>
+    <setting id="thepiratebay_alias" default="true" />
+    <setting id="thepiratebay_contains" default="true">0</setting>
+    <setting id="use_yts">true</setting>
+    <setting id="yts_alias" default="true" />
+    <setting id="yts_contains" default="true">0</setting>
+    <setting id="use_newstudio" default="true">false</setting>
+    <setting id="newstudio_alias" default="true" />
+    <setting id="newstudio_contains" default="true">0</setting>
+    <setting id="use_nyaa" default="true">false</setting>
+    <setting id="nyaa_alias" default="true" />
+    <setting id="nyaa_contains" default="true">0</setting>
+    <setting id="use_piratbit" default="true">false</setting>
+    <setting id="piratbit_alias" default="true" />
+    <setting id="piratbit_contains" default="true">0</setting>
+    <setting id="use_rutor" default="true">false</setting>
+    <setting id="rutor_alias" default="true" />
+    <setting id="rutor_contains" default="true">0</setting>
+    <setting id="use_torlock" default="true">false</setting>
+    <setting id="torlock_alias" default="true" />
+    <setting id="torlock_contains" default="true">0</setting>
+    <setting id="use_torrent9" default="true">false</setting>
+    <setting id="torrent9_alias" default="true" />
+    <setting id="torrent9_contains" default="true">0</setting>
+    <setting id="use_torrentdownloads" default="true">false</setting>
+    <setting id="torrentdownloads_alias" default="true" />
+    <setting id="torrentdownloads_contains" default="true">0</setting>
+    <setting id="use_torrentfunk" default="true">false</setting>
+    <setting id="torrentfunk_alias" default="true" />
+    <setting id="torrentfunk_contains" default="true">0</setting>
+    <setting id="use_torrentgalaxy" default="true">false</setting>
+    <setting id="torrentgalaxy_alias" default="true" />
+    <setting id="torrentgalaxy_contains" default="true">0</setting>
+    <setting id="use_torrentz" default="true">false</setting>
+    <setting id="torrentz_alias" default="true" />
+    <setting id="torrentz_contains" default="true">0</setting>
+    <setting id="use_uindex" default="true">false</setting>
+    <setting id="uindex_alias" default="true" />
+    <setting id="uindex_contains" default="true">0</setting>
+    <setting id="use_yourbittorrent" default="true">false</setting>
+    <setting id="yourbittorrent_alias" default="true" />
+    <setting id="yourbittorrent_contains" default="true">0</setting>
+    <setting id="use_anidub" default="true">false</setting>
+    <setting id="anidub_alias" default="true" />
+    <setting id="anidub_contains" default="true">0</setting>
+    <setting id="use_animaunt" default="true">false</setting>
+    <setting id="animaunt_alias" default="true" />
+    <setting id="animaunt_contains" default="true">0</setting>
+    <setting id="use_leproduction" default="true">false</setting>
+    <setting id="leproduction_alias" default="true" />
+    <setting id="leproduction_contains" default="true">0</setting>
+    <setting id="use_0day" default="true">false</setting>
+    <setting id="0day_username" default="true" />
+    <setting id="0day_password" default="true" />
+    <setting id="0day_alias" default="true" />
+    <setting id="0day_contains" default="true">0</setting>
+    <setting id="use_animelayer" default="true">false</setting>
+    <setting id="animelayer_username" default="true" />
+    <setting id="animelayer_password" default="true" />
+    <setting id="animelayer_alias" default="true" />
+    <setting id="animelayer_contains" default="true">0</setting>
+    <setting id="use_arabp2p" default="true">false</setting>
+    <setting id="arabp2p_username" default="true" />
+    <setting id="arabp2p_password" default="true" />
+    <setting id="arabp2p_alias" default="true" />
+    <setting id="arabp2p_contains" default="true">0</setting>
+    <setting id="use_baibako" default="true">false</setting>
+    <setting id="baibako_username" default="true" />
+    <setting id="baibako_password" default="true" />
+    <setting id="baibako_alias" default="true" />
+    <setting id="baibako_contains" default="true">0</setting>
+    <setting id="use_bithumen" default="true">false</setting>
+    <setting id="bithumen_username" default="true" />
+    <setting id="bithumen_password" default="true" />
+    <setting id="bithumen_alias" default="true" />
+    <setting id="bithumen_contains" default="true">0</setting>
+    <setting id="use_bluebird" default="true">false</setting>
+    <setting id="bluebird_username" default="true" />
+    <setting id="bluebird_password" default="true" />
+    <setting id="bluebird_alias" default="true" />
+    <setting id="bluebird_contains" default="true">0</setting>
+    <setting id="use_electrotorrent" default="true">false</setting>
+    <setting id="electrotorrent_username" default="true" />
+    <setting id="electrotorrent_password" default="true" />
+    <setting id="electrotorrent_alias" default="true" />
+    <setting id="electrotorrent_contains" default="true">0</setting>
+    <setting id="use_filelist" default="true">false</setting>
+    <setting id="filelist_username" default="true" />
+    <setting id="filelist_passkey" default="true" />
+    <setting id="filelist_alias" default="true" />
+    <setting id="filelist_contains" default="true">0</setting>
+    <setting id="use_gimmepeers" default="true">false</setting>
+    <setting id="gimmepeers_username" default="true" />
+    <setting id="gimmepeers_password" default="true" />
+    <setting id="gimmepeers_alias" default="true" />
+    <setting id="gimmepeers_contains" default="true">0</setting>
+    <setting id="use_hd-torrents" default="true">false</setting>
+    <setting id="hd-torrents_username" default="true" />
+    <setting id="hd-torrents_password" default="true" />
+    <setting id="hd-torrents_alias" default="true" />
+    <setting id="hd-torrents_contains" default="true">0</setting>
+    <setting id="use_helltorrents" default="true">false</setting>
+    <setting id="helltorrents_username" default="true" />
+    <setting id="helltorrents_password" default="true" />
+    <setting id="helltorrents_alias" default="true" />
+    <setting id="helltorrents_contains" default="true">0</setting>
+    <setting id="use_ilcorsaroblu" default="true">false</setting>
+    <setting id="ilcorsaroblu_username" default="true" />
+    <setting id="ilcorsaroblu_password" default="true" />
+    <setting id="ilcorsaroblu_alias" default="true" />
+    <setting id="ilcorsaroblu_contains" default="true">0</setting>
+    <setting id="use_iptorrents" default="true">false</setting>
+    <setting id="iptorrents_username" default="true" />
+    <setting id="iptorrents_password" default="true" />
+    <setting id="iptorrents_alias" default="true" />
+    <setting id="iptorrents_contains" default="true">0</setting>
+    <setting id="use_linkomanija" default="true">false</setting>
+    <setting id="linkomanija_username" default="true" />
+    <setting id="linkomanija_password" default="true" />
+    <setting id="linkomanija_alias" default="true" />
+    <setting id="linkomanija_contains" default="true">0</setting>
+    <setting id="use_lostfilm" default="true">false</setting>
+    <setting id="lostfilm_username" default="true" />
+    <setting id="lostfilm_password" default="true" />
+    <setting id="lostfilm_alias" default="true" />
+    <setting id="lostfilm_contains" default="true">0</setting>
+    <setting id="use_mvgroup" default="true">false</setting>
+    <setting id="mvgroup_username" default="true" />
+    <setting id="mvgroup_password" default="true" />
+    <setting id="mvgroup_alias" default="true" />
+    <setting id="mvgroup_contains" default="true">0</setting>
+    <setting id="use_ncore" default="true">false</setting>
+    <setting id="ncore_username" default="true" />
+    <setting id="ncore_password" default="true" />
+    <setting id="ncore_alias" default="true" />
+    <setting id="ncore_contains" default="true">0</setting>
+    <setting id="use_nnmclub" default="true">false</setting>
+    <setting id="nnmclub_username" default="true" />
+    <setting id="nnmclub_password" default="true" />
+    <setting id="nnmclub_alias" default="true" />
+    <setting id="nnmclub_contains" default="true">0</setting>
+    <setting id="use_rustorka" default="true">false</setting>
+    <setting id="rustorka_username" default="true" />
+    <setting id="rustorka_password" default="true" />
+    <setting id="rustorka_alias" default="true" />
+    <setting id="rustorka_contains" default="true">0</setting>
+    <setting id="use_rutracker" default="true">false</setting>
+    <setting id="rutracker_username" default="true" />
+    <setting id="rutracker_password" default="true" />
+    <setting id="rutracker_alias" default="true" />
+    <setting id="rutracker_contains" default="true">0</setting>
+    <setting id="use_torrentlt" default="true">false</setting>
+    <setting id="torrentlt_username" default="true" />
+    <setting id="torrentlt_password" default="true" />
+    <setting id="torrentlt_alias" default="true" />
+    <setting id="torrentlt_contains" default="true">0</setting>
+    <setting id="use_torrentday" default="true">false</setting>
+    <setting id="torrentday_username" default="true" />
+    <setting id="torrentday_password" default="true" />
+    <setting id="torrentday_alias" default="true" />
+    <setting id="torrentday_contains" default="true">0</setting>
+    <setting id="use_torrentleech" default="true">false</setting>
+    <setting id="torrentleech_username" default="true" />
+    <setting id="torrentleech_password" default="true" />
+    <setting id="torrentleech_alias" default="true" />
+    <setting id="torrentleech_contains" default="true">0</setting>
+    <setting id="use_uhdbits" default="true">false</setting>
+    <setting id="uhdbits_username" default="true" />
+    <setting id="uhdbits_password" default="true" />
+    <setting id="uhdbits_alias" default="true" />
+    <setting id="uhdbits_contains" default="true">0</setting>
+    <setting id="use_yggtorrent" default="true">false</setting>
+    <setting id="yggtorrent_username" default="true" />
+    <setting id="yggtorrent_password" default="true" />
+    <setting id="yggtorrent_alias" default="true" />
+    <setting id="yggtorrent_contains" default="true">0</setting>
+    <setting id="use_zamunda" default="true">false</setting>
+    <setting id="zamunda_username" default="true" />
+    <setting id="zamunda_password" default="true" />
+    <setting id="zamunda_alias" default="true" />
+    <setting id="zamunda_contains" default="true">0</setting>
+    <setting id="use_zelka" default="true">false</setting>
+    <setting id="zelka_username" default="true" />
+    <setting id="zelka_password" default="true" />
+    <setting id="zelka_alias" default="true" />
+    <setting id="zelka_contains" default="true">0</setting>
+    <setting id="use_ztracker" default="true">false</setting>
+    <setting id="ztracker_username" default="true" />
+    <setting id="ztracker_password" default="true" />
+    <setting id="ztracker_alias" default="true" />
+    <setting id="ztracker_contains" default="true">0</setting>
+    <setting id="use_toloka" default="true">false</setting>
+    <setting id="toloka_username" default="true" />
+    <setting id="toloka_password" default="true" />
+    <setting id="toloka_alias" default="true" />
+    <setting id="toloka_contains" default="true">0</setting>
+    <setting id="use_kinozal" default="true">false</setting>
+    <setting id="kinozal_username" default="true" />
+    <setting id="kinozal_password" default="true" />
+    <setting id="kinozal_alias" default="true" />
+    <setting id="kinozal_contains" default="true">0</setting>
+    <setting id="require_resolution">true</setting>
+    <setting id="require_keywords">true</setting>
+    <setting id="require_release_type">true</setting>
+    <setting id="require_size">true</setting>
+    <setting id="allow_noseeds" default="true">false</setting>
+    <setting id="filter_4k">true</setting>
+    <setting id="filter_2k">true</setting>
+    <setting id="filter_1080p">true</setting>
+    <setting id="filter_720p">true</setting>
+    <setting id="filter_480p">true</setting>
+    <setting id="filter_240p" default="true">false</setting>
+    <setting id="filter_brrip">true</setting>
+    <setting id="filter_webdl">true</setting>
+    <setting id="filter_hdrip">true</setting>
+    <setting id="filter_hdtv">true</setting>
+    <setting id="filter_dvd">true</setting>
+    <setting id="filter_dvdscr">true</setting>
+    <setting id="filter_screener">true</setting>
+    <setting id="filter_3d" default="true">false</setting>
+    <setting id="filter_telesync" default="true">false</setting>
+    <setting id="filter_cam" default="true">false</setting>
+    <setting id="filter_tvrip">true</setting>
+    <setting id="filter_iptvrip">true</setting>
+    <setting id="filter_vhsrip" default="true">false</setting>
+    <setting id="filter_trailer" default="true">false</setting>
+    <setting id="filter_workprint" default="true">false</setting>
+    <setting id="filter_line" default="true">false</setting>
+    <setting id="proxy_help" default="true" />
+    <setting id="proxy_enabled" default="true">false</setting>
+    <setting id="proxy_use_type">2</setting>
+    <setting id="proxy_type">5</setting>
+    <setting id="proxy_host" default="true" />
+    <setting id="proxy_port">1080</setting>
+    <setting id="proxy_login" default="true" />
+    <setting id="proxy_password" default="true" />
+    <setting id="antizapret_pac_url" default="true">https://p.thenewone.lol:8443/proxy.pac</setting>
+    <setting id="separate_sizes" default="true">false</setting>
+    <setting id="min_size_movies" default="true">0</setting>
+    <setting id="max_size_movies">100</setting>
+    <setting id="min_size_seasons" default="true">0</setting>
+    <setting id="max_size_seasons">100</setting>
+    <setting id="min_size_episodes" default="true">0</setting>
+    <setting id="max_size_episodes">100</setting>
+    <setting id="additional_filters" default="true">false</setting>
+    <setting id="filtering_help1" default="true" />
+    <setting id="accept" default="true" />
+    <setting id="block" default="true" />
+    <setting id="require">dub</setting>
+    <setting id="filtering_help2" default="true" />
+    <setting id="filter_quotes" default="true">false</setting>
+    <setting id="overwrite_anime_original_title">1</setting>
+    <setting id="kodi_language">true</setting>
+    <setting id="language_exceptions" default="true" />
+    <setting id="language_help" default="true" />
+    <setting id="use_debug_parser" default="true">false</setting>
+</settings>

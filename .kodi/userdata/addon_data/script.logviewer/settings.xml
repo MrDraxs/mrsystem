@@ -1,0 +1,9 @@
+<settings version="2">
+    <setting id="invert">true</setting>
+    <setting id="lines" default="true">0</setting>
+    <setting id="custom_window">true</setting>
+    <setting id="error_popup">true</setting>
+    <setting id="exceptions_only">true</setting>
+    <setting id="http_server" default="true">false</setting>
+    <setting id="port">8080</setting>
+</settings>

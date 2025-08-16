@@ -1,0 +1,34 @@
+﻿2025-08-16 02:28:14.993 T:141124    info <general>: -----------------------------------------------------------------------
+2025-08-16 02:28:14.993 T:141124    info <general>: Starting Kodi (21.2 (21.2.0) Git:20250614-nogitfound). Platform: Linux x86 64-bit
+2025-08-16 02:28:14.993 T:141124    info <general>: Using Release Kodi x64
+2025-08-16 02:28:14.993 T:141124    info <general>: Kodi compiled 2025-06-14 by GCC 15.1.1 for Linux x86 64-bit version 6.15.0 (397056)
+2025-08-16 02:28:14.993 T:141124    info <general>: Running on Arch Linux 0.0, kernel: Linux x86 64-bit version 6.16.1-arch1-1
+2025-08-16 02:28:14.993 T:141124    info <general>: FFmpeg version/source: 6.0.1-Kodi
+2025-08-16 02:28:14.993 T:141124    info <general>: Host CPU: Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz, 4 cores available
+2025-08-16 02:28:14.993 T:141124    info <general>: special://xbmc/ is mapped to: /usr/share/kodi
+2025-08-16 02:28:14.993 T:141124    info <general>: special://xbmcbin/ is mapped to: /usr/lib/kodi
+2025-08-16 02:28:14.993 T:141124    info <general>: special://xbmcbinaddons/ is mapped to: /usr/lib/kodi/addons
+2025-08-16 02:28:14.993 T:141124    info <general>: special://masterprofile/ is mapped to: /home/koditv/.kodi/userdata
+2025-08-16 02:28:14.993 T:141124    info <general>: special://envhome/ is mapped to: /home/koditv
+2025-08-16 02:28:14.993 T:141124    info <general>: special://home/ is mapped to: /home/koditv/.kodi
+2025-08-16 02:28:14.993 T:141124    info <general>: special://temp/ is mapped to: /home/koditv/.kodi/temp
+2025-08-16 02:28:14.993 T:141124    info <general>: special://logpath/ is mapped to: /home/koditv/.kodi/temp
+2025-08-16 02:28:14.993 T:141124    info <general>: Webserver extra whitelist paths: 
+2025-08-16 02:28:14.993 T:141124    info <general>: The executable running is: /usr/lib/kodi/kodi.bin
+2025-08-16 02:28:14.993 T:141124    info <general>: Local hostname: cpt
+2025-08-16 02:28:14.993 T:141124    info <general>: Log File is located: /home/koditv/.kodi/temp/kodi.log
+2025-08-16 02:28:14.993 T:141124    info <general>: -----------------------------------------------------------------------
+2025-08-16 02:28:14.993 T:141124    info <general>: loading settings
+2025-08-16 02:28:14.994 T:141124    info <general>: special://profile/ is mapped to: special://masterprofile/
+2025-08-16 02:28:14.999 T:141124    info <general>: No settings file to load (special://xbmc/system/advancedsettings.xml)
+2025-08-16 02:28:14.999 T:141124    info <general>: Loaded settings file from special://profile/advancedsettings.xml
+2025-08-16 02:28:14.999 T:141124    info <general>: Contents of special://profile/advancedsettings.xml are...
+                                                   <advancedsettings>
+                                                     <loglevel>-1</loglevel>
+                                                   </advancedsettings>
+                                                   
+2025-08-16 02:28:14.999 T:141124    info <general>: Log level changed to "info"
+2025-08-16 02:28:14.999 T:141124 warning <CSettingsManager>: missing version attribute
+2025-08-16 02:28:14.999 T:141124    info <general>: Default Video Player: VideoPlayer
+2025-08-16 02:28:14.999 T:141124    info <general>: Default Audio Player: paplayer
+2025-08-16 02:28:14.999 T:141124    info <general>: Disabled debug logging due to GUI setting. Level -1.
