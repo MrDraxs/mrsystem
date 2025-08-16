@@ -21,8 +21,8 @@
     <setting id="locale.keyboardlayouts" default="true">English QWERTY</setting>
     <setting id="locale.activekeyboardlayout" default="true">English QWERTY</setting>
     <setting id="locale.country">Brazil</setting>
-    <setting id="locale.timezonecountry" default="true" />
-    <setting id="locale.timezone" default="true">zoneinfo/UTC</setting>
+    <setting id="locale.timezonecountry" default="true">Brazil</setting>
+    <setting id="locale.timezone" default="true">America/Sao_Paulo</setting>
     <setting id="locale.shortdateformat" default="true">regional</setting>
     <setting id="locale.longdateformat" default="true">regional</setting>
     <setting id="locale.timeformat" default="true">regional</setting>

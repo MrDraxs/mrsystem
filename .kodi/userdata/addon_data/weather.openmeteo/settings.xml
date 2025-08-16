@@ -281,13 +281,13 @@
     <setting id="colordanger" default="true">crimson</setting>
     <setting id="debug" default="true">false</setting>
     <setting id="verbose" default="true">false</setting>
-    <setting id="service" default="true">stopped</setting>
-    <setting id="alert_notification">1755311298</setting>
+    <setting id="service">idle</setting>
+    <setting id="alert_notification">1755316543</setting>
     <setting id="geoip">true</setting>
-    <setting id="loc1data">1755310885</setting>
+    <setting id="loc1data">1755314636</setting>
     <setting id="loc1map">1755292349</setting>
-    <setting id="loc1rv">1755310888</setting>
-    <setting id="loc1gc">1755303438</setting>
+    <setting id="loc1rv">1755314638</setting>
+    <setting id="loc1gc">1755314335</setting>
     <setting id="loc2data" default="true" />
     <setting id="loc2map" default="true" />
     <setting id="loc2rv" default="true" />
