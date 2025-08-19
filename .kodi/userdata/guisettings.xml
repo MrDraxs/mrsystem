@@ -264,18 +264,18 @@
     <setting id="services.devicename" default="true">Kodi</setting>
     <setting id="services.zeroconf" default="true">true</setting>
     <setting id="services.deviceuuid">4585f75e-f80d-44ce-9e78-e9e6bd44f034</setting>
-    <setting id="services.webserver" default="true">false</setting>
+    <setting id="services.webserver">true</setting>
     <setting id="services.webserverport" default="true">8080</setting>
     <setting id="services.webserverauthentication" default="true">true</setting>
-    <setting id="services.webserverusername" default="true">kodi</setting>
-    <setting id="services.webserverpassword" default="true" />
+    <setting id="services.webserverusername">mrflix</setting>
+    <setting id="services.webserverpassword">mrflix</setting>
     <setting id="services.webserverssl" default="true">false</setting>
     <setting id="services.webskin" default="true">webinterface.default</setting>
     <setting id="services.esenabled" default="true">true</setting>
     <setting id="services.esport" default="true">9777</setting>
     <setting id="services.esportrange" default="true">10</setting>
     <setting id="services.esmaxclients" default="true">20</setting>
-    <setting id="services.esallinterfaces" default="true">false</setting>
+    <setting id="services.esallinterfaces">true</setting>
     <setting id="services.esinitialdelay" default="true">750</setting>
     <setting id="services.escontinuousdelay" default="true">25</setting>
     <setting id="services.upnp" default="true">false</setting>
@@ -373,7 +373,7 @@
     <setting id="network.bandwidth" default="true">0</setting>
     <setting id="powermanagement.displaysoff" default="true">0</setting>
     <setting id="powermanagement.shutdowntime" default="true">0</setting>
-    <setting id="powermanagement.shutdownstate" default="true">1</setting>
+    <setting id="powermanagement.shutdownstate" default="true">0</setting>
     <setting id="powermanagement.waitfornetwork" default="true">0</setting>
     <setting id="powermanagement.wakeonaccess" default="true">false</setting>
     <setting id="general.addonupdates" default="true">0</setting>
@@ -510,7 +510,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>40</systemtotaluptime>
+        <systemtotaluptime>49</systemtotaluptime>
     </general>
     <defaultvideosettings>
         <interlacemethod>1</interlacemethod>

@@ -1,8 +1,8 @@
 <settings>
+    <setting id="skinshortcuts-widget-Addon" type="bool">true</setting>
     <setting id="view523_disablefanart" type="bool">false</setting>
     <setting id="airdateshows" type="bool">false</setting>
     <setting id="TMDbHelper.DirectCallAuto" type="bool">true</setting>
-    <setting id="skinshortcuts-widget-Addon" type="bool">true</setting>
     <setting id="castcrewimages" type="bool">false</setting>
     <setting id="enabledetailsiconsinfodialog" type="bool">false</setting>
     <setting id="bingietoolbox.view.disabled.513" type="bool">false</setting>

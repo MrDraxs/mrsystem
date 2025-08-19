@@ -8,5 +8,6 @@ printf 'if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then\nstartx\nfi' >> $
 sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
 sudo mv $HOME/mrsystem/override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
 sudo mv $HOME/mrsystem/.kodi $HOME
+sudo systemctl enable avahi-daemon.service
 rm -rf $HOME/mrsystem
 sudo reboot

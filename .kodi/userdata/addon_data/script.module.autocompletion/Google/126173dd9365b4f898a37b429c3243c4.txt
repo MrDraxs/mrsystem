@@ -1,0 +1,1 @@
+["m", ["mercado livre", "maps", "mundial de clubes", "meu inss", "minecraft", "microsoft", "manus ai", "mundial de clubes 2025", "mounjaro", "max"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]
