@@ -1,0 +1,1 @@
+["Lan\u00e7amentos - Filmes(legenda", ["filmes lan\u00e7amentos legendados", "lan\u00e7amentos filmes", "lan\u00e7amentos de filmes", "legend filme completo"], [], {"google:suggestsubtypes": [[22, 30], [512, 546], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY"]}]

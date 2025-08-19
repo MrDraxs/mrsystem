@@ -1,0 +1,1 @@
+["F", ["flamengo", "facebook", "fluminense", "futemax", "f1", "fifa club world cup", "friv", "freepik", "flights", "figma"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

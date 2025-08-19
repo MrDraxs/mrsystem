@@ -1,0 +1,1 @@
+["Ani", ["animes", "anitta", "animalia park", "animale", "animal", "anistia", "anime friends 2025", "anita", "animal com n", "anime friends"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["Home", ["homem com h", "homem aranha", "home office", "home", "home depot", "homem com h filme", "homem de ferro", "homem", "home theater", "homeopatia"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

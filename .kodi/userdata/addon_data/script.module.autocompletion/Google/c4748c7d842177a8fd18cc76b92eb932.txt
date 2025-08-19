@@ -1,0 +1,1 @@
+["Lan\u00e7amentos - Filmes(lef", ["lan\u00e7amentos filmes", "lan\u00e7amentos de filmes 2023", "lan\u00e7amentos 2023 filmes completos dublados", "lan\u00e7amentos filmes netflix 2022"], [], {"google:suggestsubtypes": [[512, 546], [649, 546], [751], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY"]}]

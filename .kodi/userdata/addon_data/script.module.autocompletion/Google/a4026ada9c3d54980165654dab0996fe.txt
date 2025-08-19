@@ -1,0 +1,1 @@
+["Per", ["perplexity ai", "perplexity", "pernambucanas", "perfume", "perfume arabe", "personare", "peru", "percy jackson", "pernambuco", "perspirex"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

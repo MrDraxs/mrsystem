@@ -1,0 +1,1 @@
+["Fi", ["fifa club world cup", "figma", "filmes em cartaz", "final champions", "fipe", "fivem", "filmes online gratis", "fiat", "fibromialgia", "firefox"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

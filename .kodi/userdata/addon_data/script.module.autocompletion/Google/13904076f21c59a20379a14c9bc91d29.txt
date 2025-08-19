@@ -1,0 +1,1 @@
+["S", ["shopee", "spotify", "snaptube", "steam", "shein", "speed test", "skyscanner", "samsung", "superman", "stitch"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

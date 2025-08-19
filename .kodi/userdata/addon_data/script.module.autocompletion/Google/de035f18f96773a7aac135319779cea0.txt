@@ -1,0 +1,1 @@
+["Lan\u00e7amentos - Filmes(legen", ["filmes lan\u00e7amentos legendados", "legend filme completo", "legend filme completo dublado em portugues", "lan\u00e7amentos filmes", "lan\u00e7amentos de filmes"], [], {"google:suggestsubtypes": [[22, 30], [751], [751], [512, 546], [512, 546]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

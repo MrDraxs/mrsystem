@@ -1,0 +1,1 @@
+["[B][COLOR white]BRAZUCA PLAY[/COLOR][/B]", ["color b", "brazil colour code", "brazil brazil colour", "brazil colours", "brazil's blue color code"], [], {"google:suggestsubtypes": [[512, 546], [649, 546], [751], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

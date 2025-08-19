@@ -1,0 +1,1 @@
+["[B][COLOR white]B", ["b change the font color to white background 1", "what color is blue and white mixed", "what color blends with white", "color b", "black white b"], [], {"google:suggestsubtypes": [[22, 30], [512, 650, 390], [512, 650, 390], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

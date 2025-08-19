@@ -8,7 +8,7 @@
     <setting id="gamesachievements.password" default="true" />
     <setting id="gamesachievements.token" default="true" />
     <setting id="gamesachievements.loggedin" default="true">false</setting>
-    <setting id="lookandfeel.skin">skin.nimbus</setting>
+    <setting id="lookandfeel.skin">skin.bingie</setting>
     <setting id="lookandfeel.skintheme" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.skincolors" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.font" default="true">Default</setting>
@@ -52,7 +52,7 @@
     <setting id="musiclibrary.exportoverwrite" default="true">false</setting>
     <setting id="musiclibrary.exportartwork" default="true">false</setting>
     <setting id="musiclibrary.exportskipnfo" default="true">false</setting>
-    <setting id="filelists.showparentdiritems" default="true">true</setting>
+    <setting id="filelists.showparentdiritems">false</setting>
     <setting id="filelists.ignorethewhensorting" default="true">true</setting>
     <setting id="filelists.showextensions" default="true">true</setting>
     <setting id="filelists.showaddsourcebuttons" default="true">true</setting>
@@ -295,7 +295,7 @@
     <setting id="smb.minprotocol" default="true">0</setting>
     <setting id="smb.maxprotocol" default="true">3</setting>
     <setting id="smb.legacysecurity" default="true">false</setting>
-    <setting id="services.wsdiscovery" default="true">true</setting>
+    <setting id="services.wsdiscovery">false</setting>
     <setting id="smb.chunksize" default="true">128</setting>
     <setting id="nfs.version" default="true">3</setting>
     <setting id="nfs.chunksize" default="true">128</setting>
@@ -373,7 +373,7 @@
     <setting id="network.bandwidth" default="true">0</setting>
     <setting id="powermanagement.displaysoff" default="true">0</setting>
     <setting id="powermanagement.shutdowntime" default="true">0</setting>
-    <setting id="powermanagement.shutdownstate" default="true">0</setting>
+    <setting id="powermanagement.shutdownstate" default="true">1</setting>
     <setting id="powermanagement.waitfornetwork" default="true">0</setting>
     <setting id="powermanagement.wakeonaccess" default="true">false</setting>
     <setting id="general.addonupdates" default="true">0</setting>
@@ -510,7 +510,7 @@
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
         </eventlog>
-        <systemtotaluptime>7</systemtotaluptime>
+        <systemtotaluptime>40</systemtotaluptime>
     </general>
     <defaultvideosettings>
         <interlacemethod>1</interlacemethod>

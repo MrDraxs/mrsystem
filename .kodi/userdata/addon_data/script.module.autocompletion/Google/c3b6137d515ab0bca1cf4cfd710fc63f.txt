@@ -1,0 +1,1 @@
+["Elementum - Pesquisa", ["elementum como instalar", "elementorum", "elementum repositorio", "elementum atibaia", "elmentar"], [], {"google:suggestsubtypes": [[751], [512, 546], [751], [751], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

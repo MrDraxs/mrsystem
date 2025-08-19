@@ -1,0 +1,1 @@
+["Ps", ["psg", "ps5", "ps5 pro", "ps4", "psyllium", "psoriase", "psn", "psg fc", "psg x", "ps5 slim"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

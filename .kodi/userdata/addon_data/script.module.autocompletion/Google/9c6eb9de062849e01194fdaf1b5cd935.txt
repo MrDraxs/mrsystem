@@ -1,0 +1,1 @@
+["G\u00eaneros - S\u00e9ries(legenda", ["s\u00e9ries gl", "g\u00eaneros cinematogr\u00e1ficos", "legendream", "s\u00e9ries lgbt", "legenday series"], [], {"google:suggestsubtypes": [[751], [512, 546], [751], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

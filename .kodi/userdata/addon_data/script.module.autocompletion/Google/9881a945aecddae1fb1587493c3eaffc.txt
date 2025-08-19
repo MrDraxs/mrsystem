@@ -1,0 +1,1 @@
+["Persqui", ["perquisite", "periquito", "per sq inch", "perisquis", "persux", "perseguidora", "pesquad", "persecura"], [], {"google:suggestsubtypes": [[512, 10], [512, 10], [512, 10], [751], [751], [512, 546], [751], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

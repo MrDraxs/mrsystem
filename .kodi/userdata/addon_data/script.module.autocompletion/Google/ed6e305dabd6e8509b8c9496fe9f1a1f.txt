@@ -1,0 +1,1 @@
+["G\u00eaneros - Filmes(legenda", ["g\u00eaneros de filmes", "g\u00eaneros de filmes em ingl\u00eas", "g\u00eaneros cinematogr\u00e1ficos", "generos de filme em ingles", "filme legends"], [], {"google:suggestsubtypes": [[512, 546], [751], [512, 546], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

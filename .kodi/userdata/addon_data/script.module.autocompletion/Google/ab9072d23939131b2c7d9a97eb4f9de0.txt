@@ -1,0 +1,1 @@
+["Nov", ["novibet", "novorizontino", "novak djokovic", "novalgina", "nova zelandia", "nova skin", "nova york", "novela vale tudo", "novela a viagem", "novocaine"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

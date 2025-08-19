@@ -1,0 +1,1 @@
+["G\u00eaneros - S\u00e9ries(leg", ["s\u00e9ries lgbt", "g\u00eaneros", "s\u00e9rie lgbt"], [], {"google:suggestsubtypes": [[512, 546], [512, 546], [512, 546]], "google:suggesttype": ["QUERY", "QUERY", "QUERY"]}]

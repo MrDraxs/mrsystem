@@ -1,0 +1,1 @@
+["[B", ["betano", "brasileirao", "bet365", "botafogo", "barcelona", "booking", "bitcoin", "byd", "bet", "bayern munich"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

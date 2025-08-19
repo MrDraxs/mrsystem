@@ -1,0 +1,1 @@
+["Pesquisar - S\u00e9ries(legf", ["s\u00e9ries lgbt", "s\u00e9ries legais para assistir", "s\u00e9ries legais para assistir no youtube", "s\u00e9ries l\u00e9sbicas", "search legendado"], [], {"google:suggestsubtypes": [[512, 546], [751], [751], [751], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

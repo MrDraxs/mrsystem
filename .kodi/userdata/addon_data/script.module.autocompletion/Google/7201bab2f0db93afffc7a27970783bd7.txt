@@ -1,0 +1,1 @@
+["Ho", ["hotmail", "hotmart", "horario de brasilia", "honda", "hostinger", "homem com h", "hotmail entrar", "how to train your dragon", "hostgator", "hotel"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

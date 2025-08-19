@@ -1,0 +1,1 @@
+["P", ["palmeiras", "pinterest", "pictures", "play music", "poki", "psg", "prime video", "play store", "portugal", "ps5"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

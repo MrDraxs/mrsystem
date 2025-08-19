@@ -1,0 +1,1 @@
+["Hist\u00f3rico de reproduu", ["historico de reels", "hist\u00f3rico de reels assistidos", "historico de pre\u00e7os", "hist\u00f3rico de pesquisa do youtube", "hist\u00f3rico de pesquisa youtube"], [], {"google:suggestsubtypes": [[751], [512, 546], [512, 546], [751], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

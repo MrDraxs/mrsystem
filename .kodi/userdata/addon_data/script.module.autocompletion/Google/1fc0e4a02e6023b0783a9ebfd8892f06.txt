@@ -1,0 +1,1 @@
+["Me", ["mercado livre", "meu inss", "mega sena", "meet", "mei", "mercado pago", "mercado libre", "mercado", "messi", "melatonina"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

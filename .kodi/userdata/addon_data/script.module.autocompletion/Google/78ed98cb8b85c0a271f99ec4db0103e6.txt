@@ -1,0 +1,1 @@
+["ElemenG\u00eaneros", ["elementos genshin", "elementais", "element mensageiro", "elementos genshin impact", "elementavoah"], [], {"google:suggestsubtypes": [[512, 546], [512, 546], [751], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

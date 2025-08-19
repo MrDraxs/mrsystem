@@ -1,0 +1,1 @@
+["Mr(", ["mr(s)stil design apartments", "mr(s)", "mr(pot)a 2010", "mr(ant)tenna", "mr bean", "mrbeast", "mr price", "mr cooper", "mr and mrs smith", "mr plankton"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [30], [30, 10], [30], [30], [30], [30]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

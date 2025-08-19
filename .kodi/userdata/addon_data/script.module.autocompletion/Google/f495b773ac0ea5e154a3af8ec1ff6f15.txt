@@ -1,0 +1,1 @@
+["S[", ["s line", "s pen", "s line kdrama", "s 25 ultra", "s and p 500", "s line onde assistir", "s 23 ultra", "s 24", "s 25", "s 23"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

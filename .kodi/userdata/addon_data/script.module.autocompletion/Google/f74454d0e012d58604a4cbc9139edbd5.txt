@@ -1,0 +1,1 @@
+["[B][COLOR blue]\u25cf[/COLOR] [COLOR white]PESQUISE", ["what color is b", "color blue blue", "yellow + blue = what color", "red red a blue blue b"], [], {"google:suggestsubtypes": [[512, 546], [751], [512, 546], [751]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY"]}]

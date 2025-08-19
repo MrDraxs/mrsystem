@@ -1,0 +1,1 @@
+["[B][COLOR white]BRAZUCA PLAY[/C", ["b color white brazuca play /cadastro"], [], {"google:suggestsubtypes": [[21]], "google:suggesttype": ["TAIL"]}]

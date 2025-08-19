@@ -1,0 +1,1 @@
+["Hist\u00f3rico de reprou", ["historico de reparo iphone", "historico de reels", "hist\u00f3rico de reels assistidos", "historico de reacoes no instagram", "historico de pre\u00e7os"], [], {"google:suggestsubtypes": [[751], [751], [512, 546], [751], [512, 546]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["D", ["dolar hoje", "discord", "deepseek", "dolar", "disney plus", "disney", "download", "duolingo", "dafont", "deepl"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

@@ -1,0 +1,1 @@
+["[B][C", ["b clean", "b chord", "b cup", "b craftsman", "b cursivo", "b complex", "b corp", "b chord guitar", "b capital", "b chord piano"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

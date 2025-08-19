@@ -1,0 +1,1 @@
+["Pesquisar - S\u00e9ries(l", ["pesquisar s\u00e9ries lgbt", "pesquisar s\u00e9ries l\u00e9sbicas", "pesquisar series libras", "pesquisar s\u00e9ries lesbicas"], [], {"google:suggestsubtypes": [[671], [671], [671], [671]], "google:suggesttype": ["TAIL", "TAIL", "TAIL", "TAIL"]}]

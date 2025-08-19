@@ -1,0 +1,1 @@
+["[B][", ["b blend brastemp", "b hotel brasilia", "b hotel", "b jordan", "b o online", "b 21 raider", "b 52", "b 12", "b active", "b clean"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

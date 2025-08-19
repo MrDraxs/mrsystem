@@ -13,6 +13,11 @@
     </pictures>
     <files>
         <default pathversion="1"></default>
+        <source>
+            <name>repository.bingie</name>
+            <path pathversion="1">https://matke-84.github.io/repository.bingie/repository.bingie</path>
+            <allowsharing>true</allowsharing>
+        </source>
     </files>
     <games>
         <default pathversion="1"></default>

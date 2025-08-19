@@ -1,0 +1,1 @@
+["De", ["deepseek", "detran", "decolar", "detran sp", "detran mg", "decathlon", "deu no poste", "detran rj", "deepl", "dell"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

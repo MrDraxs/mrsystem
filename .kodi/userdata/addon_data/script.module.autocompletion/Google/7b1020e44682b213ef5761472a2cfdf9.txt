@@ -1,0 +1,1 @@
+["N", ["netflix", "nba", "nike", "neymar", "ney matogrosso", "nintendo switch 2", "notebook", "noticias", "new balance", "nintendo switch"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

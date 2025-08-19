@@ -1,0 +1,1 @@
+["Dora", ["dorama", "dora aventureira", "doramas netflix", "doralgina", "dora", "doraemon", "doravante", "dora aventureira filme", "doramas love", "dorayaki"], [], {"google:suggestsubtypes": [[512], [512], [512], [512], [512], [512], [512], [512], [512], [512]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

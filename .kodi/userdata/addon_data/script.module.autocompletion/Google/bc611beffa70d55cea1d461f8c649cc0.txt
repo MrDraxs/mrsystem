@@ -1,0 +1,1 @@
+["G\u00eaneros - S\u00e9ries(l", ["generos de las series", "s\u00e9ries gl", "s\u00e9ries lgbt", "s\u00e9rie lgbt", "g\u00eaneros"], [], {"google:suggestsubtypes": [[22, 30], [751], [512, 546], [512, 546], [512, 546]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]
