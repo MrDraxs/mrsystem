@@ -12,9 +12,10 @@ set -euo pipefail
 # Example:
 #   CONFIG_REPO="https://github.com/yourusername/suckless-configs.git"
 # ---------------------------------------------------------------------------
-CONFIG_REPO="https://github.com/YOUR_USERNAME/YOUR_CONFIG_REPO.git"
+CONFIG_REPO="https://github.com/MrDraxs/mrsystem.git"
 
 # Where sources will be placed
+mkdir -p $HOME/.local/src/configs
 SRC_DIR="${HOME}/.local/src"
 CONFIG_DIR="${SRC_DIR}/configs"          # temporary clone of your config repo
 
