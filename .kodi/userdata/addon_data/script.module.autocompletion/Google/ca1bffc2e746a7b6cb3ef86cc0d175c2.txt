@@ -1,1 +1,0 @@
-["MrFlix", ["myflixer", "myflixer br", "myflixer portugu\u00eas", "myflixer filmes em portugu\u00eas", "myflixer alternative", "myflixer uk"], [], {"google:suggestsubtypes": [[512, 10], [512, 10], [512, 10], [512, 10], [512, 10], [512, 10]], "google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]
