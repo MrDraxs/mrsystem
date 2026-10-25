@@ -1,0 +1,261 @@
+#!/bin/bash
+
+# cpt - universal simplified package + volume helper
+# Detects package manager and uses the correct commands
+
+set -euo pipefail
+
+# ---------- Privilege helper ----------
+if command -v doas &>/dev/null; then
+    SUDO="doas"
+elif command -v sudo &>/dev/null; then
+    SUDO="sudo"
+else
+    SUDO=""
+fi
+
+# ---------- Detect package manager ----------
+detect_pm() {
+    if command -v pacman &>/dev/null; then
+        echo "pacman"
+    elif command -v apt &>/dev/null; then
+        echo "apt"
+    elif command -v dnf &>/dev/null; then
+        echo "dnf"
+    elif command -v zypper &>/dev/null; then
+        echo "zypper"
+    elif command -v apk &>/dev/null; then
+        echo "apk"
+    elif command -v xbps-install &>/dev/null; then
+        echo "xbps"
+    elif command -v emerge &>/dev/null; then
+        echo "emerge"
+    else
+        echo "unknown"
+    fi
+}
+
+PM=$(detect_pm)
+
+# ---------- Package commands ----------
+cmd_add() {
+    case "$PM" in
+        pacman)  $SUDO pacman -S "$@" ;;
+        apt)     $SUDO apt install "$@" ;;
+        dnf)     $SUDO dnf install "$@" ;;
+        zypper)  $SUDO zypper install "$@" ;;
+        apk)     $SUDO apk add "$@" ;;
+        xbps)    $SUDO xbps-install -S "$@" ;;
+        emerge)  $SUDO emerge "$@" ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_del() {
+    case "$PM" in
+        pacman)  $SUDO pacman -Rns "$@" ;;
+        apt)     $SUDO apt remove --purge "$@" ;;
+        dnf)     $SUDO dnf remove "$@" ;;
+        zypper)  $SUDO zypper remove "$@" ;;
+        apk)     $SUDO apk del "$@" ;;
+        xbps)    $SUDO xbps-remove -R "$@" ;;
+        emerge)  $SUDO emerge --unmerge "$@" ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_search() {
+    case "$PM" in
+        pacman)  pacman -Ss "$@" ;;
+        apt)     apt search "$@" ;;
+        dnf)     dnf search "$@" ;;
+        zypper)  zypper search "$@" ;;
+        apk)     apk search "$@" ;;
+        xbps)    xbps-query -Rs "$@" ;;
+        emerge)  emerge --search "$@" ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_update() {
+    case "$PM" in
+        pacman)  $SUDO pacman -Syu ;;
+        apt)     $SUDO apt update && $SUDO apt upgrade ;;
+        dnf)     $SUDO dnf upgrade ;;
+        zypper)  $SUDO zypper update ;;
+        apk)     $SUDO apk update && $SUDO apk upgrade ;;
+        xbps)    $SUDO xbps-install -Su ;;
+        emerge)  $SUDO emerge --sync && $SUDO emerge -uDN @world ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_info() {
+    case "$PM" in
+        pacman)  pacman -Si "$@" ;;
+        apt)     apt show "$@" ;;
+        dnf)     dnf info "$@" ;;
+        zypper)  zypper info "$@" ;;
+        apk)     apk info "$@" ;;
+        xbps)    xbps-query -R "$@" ;;
+        emerge)  emerge --info "$@" ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_list() {
+    case "$PM" in
+        pacman)  pacman -Q "$@" ;;
+        apt)     dpkg -l "$@" ;;
+        dnf)     dnf list installed "$@" ;;
+        zypper)  zypper search --installed-only "$@" ;;
+        apk)     apk info "$@" ;;
+        xbps)    xbps-query -l "$@" ;;
+        emerge)  qlist -I "$@" ;;   # needs app-portage/portage-utils
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_clean() {
+    case "$PM" in
+        pacman)  $SUDO pacman -Sc ;;
+        apt)     $SUDO apt autoremove && $SUDO apt autoclean ;;
+        dnf)     $SUDO dnf autoremove && $SUDO dnf clean all ;;
+        zypper)  $SUDO zypper clean ;;
+        apk)     $SUDO apk cache clean ;;
+        xbps)    $SUDO xbps-remove -O ;;
+        emerge)  $SUDO emerge --depclean ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+cmd_orphan() {
+    case "$PM" in
+        pacman)  pacman -Qtdq | $SUDO pacman -Rns - ;;
+        apt)     $SUDO apt autoremove ;;
+        dnf)     $SUDO dnf autoremove ;;
+        zypper)  $SUDO zypper packages --unneeded | awk 'NR>2 {print $3}' | xargs -r $SUDO zypper remove ;;
+        apk)     echo "Alpine does not track orphans the same way" ;;
+        xbps)    $SUDO xbps-remove -o ;;
+        emerge)  $SUDO emerge --depclean ;;
+        *)       echo "Unsupported package manager"; exit 1 ;;
+    esac
+}
+
+# ---------- Volume (PulseAudio / PipeWire) ----------
+cmd_vol() {
+    if ! command -v pactl &>/dev/null; then
+        echo "pactl not found (need PulseAudio or PipeWire)"
+        exit 1
+    fi
+
+    if [[ -z "${1:-}" ]]; then
+        vol=$(pactl get-sink-volume @DEFAULT_SINK@ 2>/dev/null | grep -oP '\d+%' | head -1)
+        if [[ -n "$vol" ]]; then
+            echo "Volume: $vol"
+        else
+            echo "Could not get volume"
+            exit 1
+        fi
+    else
+        level=${1%\%}
+        if ! [[ "$level" =~ ^[0-9]+$ ]]; then
+            echo "Usage: cpt vol [0-150]"
+            exit 1
+        fi
+        (( level > 150 )) && level=150
+        pactl set-sink-volume @DEFAULT_SINK@ "${level}%"
+        echo "Volume set to ${level}%"
+    fi
+}
+
+cmd_mute() {
+    if ! command -v pactl &>/dev/null; then
+        echo "pactl not found"
+        exit 1
+    fi
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+    state=$(pactl get-sink-mute @DEFAULT_SINK@ | awk '{print $2}')
+    echo "Mute: $state"
+}
+
+# ---------- Help ----------
+show_help() {
+    cat <<EOF
+cpt - universal package & volume helper
+
+Detected package manager: $PM
+Privilege command:        ${SUDO:-none}
+
+Package commands:
+  cpt add <pkg...>       Install packages
+  cpt del <pkg...>       Remove packages
+  cpt search <term>      Search packages
+  cpt update             Update system
+  cpt info <pkg>         Show package info
+  cpt list [pkg]         List installed packages
+  cpt clean              Clean package cache / autoremove
+  cpt orphan             Remove orphaned packages
+
+Volume:
+  cpt vol                Show current volume
+  cpt vol 75             Set volume to 75%
+  cpt mute               Toggle mute
+
+Aliases:
+  add:    install, i
+  del:    remove, rm, r
+  search: s
+  update: upgrade, u
+  list:   q
+
+EOF
+}
+
+# ---------- Main ----------
+case "${1:-}" in
+    add|install|i)
+        shift
+        cmd_add "$@"
+        ;;
+    del|remove|rm|r)
+        shift
+        cmd_del "$@"
+        ;;
+    search|s)
+        shift
+        cmd_search "$@"
+        ;;
+    update|upgrade|u)
+        cmd_update
+        ;;
+    info)
+        shift
+        cmd_info "$@"
+        ;;
+    list|q)
+        shift
+        cmd_list "$@"
+        ;;
+    clean)
+        cmd_clean
+        ;;
+    orphan|orphans)
+        cmd_orphan
+        ;;
+    vol|volume)
+        shift
+        cmd_vol "$@"
+        ;;
+    mute)
+        cmd_mute
+        ;;
+    help|-h|--help|"")
+        show_help
+        ;;
+    *)
+        echo "Unknown command: $1"
+        echo "Run 'cpt help' for usage."
+        exit 1
+        ;;
+esac
