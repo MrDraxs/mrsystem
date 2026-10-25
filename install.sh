@@ -194,6 +194,9 @@ if [[ -d "${CONFIG_DIR}/.config" ]]; then
     cp -r "${CONFIG_DIR}/.config/"* "${HOME}/.config/" || true
 fi
 
+mv "$(find $HOME -name cpt)" $HOME/.local/bin
+chmod +x $HOME/.local/bin/cpt
+
 info "All done!"
 echo
 echo "Binaries  → /usr/local/bin/{dwm,dmenu,st}"
